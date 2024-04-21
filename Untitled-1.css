@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(30, 54%, 90%);
+}
+.container{
+    margin: 100px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   /* min-width: 100vh;
+     */
+    /* width: 600px; */
+}
+.content{
+    padding: 20px;
+    border-radius: 10px;  
+    background-color: hsl(0, 0%, 100%);
+}
+picture img{
+    padding: 0px;
+    margin: 0px;
+    border-radius: 5px;
+}
+.heading-one h1{
+    margin: 20px 0px 15px 0px;
+    font-size: 30px;
+    color: hsl(24, 5%, 18%);
+}
+.heading-one .para-one{
+    font-size: 16px;
+    width: 600px;
+    color: hsl(30, 10%, 34%) ;
+}
+.preparation{
+    background-color:  hsl(330, 100%, 98%);
+    margin: 15px 0px 15px 0px;
+    padding: 15px;
+}
+.preparation h3{
+    color: hsl(332, 51%, 32%);
+}
+.preparation ul{
+    margin: 10px 0px 0px 22px;
+    color: hsl(332, 51%, 32%);
+}
+.preparation ul li{
+    font-size: 16px;
+    margin: 5px 0px 5px 0px;
+    padding: 0px 0px 0px 10px;
+}
+i.brown{
+    color:hsl(24, 5%, 18%) ;
+}
+span.ligthbrowm{
+    color:hsl(30, 10%, 34%) ;
+}
+.ingredient header{
+    font-size: 23px;
+    color: hsl(14, 45%, 36%) ;
+}
+.ingredient ul{
+    margin:15px 0px 20px 22px;
+    color:hsl(14, 45%, 36%) ;
+}
+.ingredient ul li{
+ 
+    padding-left: 10px;
+    margin: 0px 0px 5px 0px;
+}
+span.list1{
+    color: hsl(30, 10%, 34%);
+}
+.instruction  header{
+      font-size: 23px;
+      color:hsl(14, 45%, 36%) ;
+      margin-top: 15px;
+}
+.instruction ol{
+    color:hsl(14, 45%, 36%);
+    margin:10px 0px 20px 20px ;
+    width: 550px;
+    padding: 0px;
+    font-size: 16px;
+    line-height: 120%;
+
+}
+.instruction ol li{
+    padding: 0px 0px 0px 10px;
+    margin-bottom: 10px;
+}
+ol,li,b{
+    color: hsl(24, 5%, 18%) ;
+}
+ol,li,span.ligthbrown2{
+    color: hsl(30, 10%, 34%) ;
+    margin-left: 2px;
+}
+.nutrition{
+    margin: 20px 0px 20px 0px;
+    padding: 0px;
+    font-size: 16px;
+
+}
+.nutrition header{
+    color:hsl(14, 45%, 36%) ;
+    font-size: 23px;
+    margin-bottom:10px ;
+}
+.nutrition .para-two{
+    color:hsl(24, 5%, 18%) ;
+}
+
+.grams{
+    margin: 20px;
+    padding: 0px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.grams .praa-three{
+      padding: 5px 0px 5px 20px;
+}
+.grams .praa-four{
+      padding: 5px 0px 5px 20px;
+}
+.grams .praa-five{
+      padding: 5px 0px 5px 20px;
+}
+.grams .praa-six{
+      padding: 5px 0px 5px 20px;
+}
+
+span.kalori{
+    color:hsl(14, 45%, 36%) ;
+    font-weight: 600;
+}
+.praa-three span.kalori{
+    padding-left: 40.2%;
+}
+.praa-four span.kalori{
+    padding-left: 46%;
+}
+.praa-five span.kalori{
+    padding-left: 43.5%;
+}
+.praa-six span.kalori{
+    padding-left: 48%;
+}
+
+hr{
+    color: hsl(30, 18%, 87%);
+}

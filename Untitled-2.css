@@ -1,0 +1,72 @@
+@media screen and (max-width:578px) {
+    .container{
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    body{
+        background-color:#fff;
+    }
+ .content{
+    padding: 0px;
+    border-radius:0px;
+   margin: 0px 20px 0px 20px ;
+}
+ picture img{
+    padding: 0px;
+    border-radius: 0px;
+    width:350px;
+    height: auto;
+ }
+ .heading-one h1{
+    /* margin: 20px 15px 10px 15px; */
+    font-size: 30px ;
+    width: 300px;
+ }
+ .heading-one .para-one{
+    font-size: 16px ;
+    width: 290px;
+     /* margin: 0px 15px 10px 15px; */
+ }
+ .preparation{
+    /* background-color:  hsl(330, 100%, 98%); */
+    /* margin: 15px; */
+    padding: 15px;
+    border-radius: 5px;
+    width: 300px;
+}
+.ingredient ul{
+    width: 250px;
+}
+.instruction ol{
+    color:hsl(14, 45%, 36%);
+    margin:10px 0px 20px 20px ;
+    width: 226px;
+    padding: 0px;
+    font-size: 16px;
+    line-height: 120%;
+}
+.nutrition .para-two{
+    color:hsl(24, 5%, 18%) ;
+    width: 280px;
+}
+.praa-three span.kalori{
+    padding-left: 10%;
+}
+.praa-four span.kalori{
+    padding-left: 14%;
+}
+.praa-five span.kalori{
+    padding-left: 11%;
+}
+.praa-six span.kalori{
+    padding-left: 16%;
+}
+/* hr{
+    width: 300px;
+} */
+
+}
